@@ -1,0 +1,26 @@
+# Core
+torch>=2.0
+torchvision
+numpy
+pandas
+matplotlib
+tqdm
+
+# Event camera data processing
+tonic
+dv-processing
+h5py
+
+# Spiking Neural Networks & Speck deployment
+sinabs>=2.0
+snntorch
+
+# Utilities
+python-dotenv
+opencv-python
+ipykernel
+jupyter
+
+# Optional: experiment tracking
+# mlflow
+# wandb
