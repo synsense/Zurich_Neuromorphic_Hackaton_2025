@@ -63,8 +63,8 @@ dynapcnn_net.make_config(device="speck2fmodule")  # Raises error if model doesn'
 ### 1. Environment Setup
 
 ```bash
-git clone <repo-url>
-cd <repo-name>
+git clone https://github.com/synsense/Zurich_Neuromorphic_Hackaton_2025.git
+cd Zurich_Neuromorphic_Hackaton_2025/Speck_project
 
 conda create -n eye-tracking python=3.10 -y
 conda activate eye-tracking
@@ -136,3 +136,4 @@ def euclidean_error(predictions, targets):
 ---
 
 Good luck and have fun!
+
